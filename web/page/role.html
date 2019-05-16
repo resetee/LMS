@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta name="keywords" content="scclui框架">
+	<meta name="description" content="scclui为轻量级的网站后台管理系统模版。">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<script type="text/javascript" src="../common/lib/jquery-1.9.0.min.js"></script>
+    <title>角色管理</title>
+    
+  </head>
+  
+  <body>
+	<div id="" class="">
+		<div id="" class="">
+			<input type="button" value="查询角色" onclick="query_role()">
+			<input type="button" value="新增角色" onclick="add_row()">
+		</div>
+		<div id="show_table_div">
+			<table>
+				<tbody id="row_table">
+				<tr>
+					<th><input type="checkbox" value="" onclick=""></th>
+					<th>角色名称</th>	
+					<th>权限</th>
+					<th>操作</th>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+		<div id="show_right_div" style="display:none;">
+			<button id='show_right_div_colse'>关闭/返回</button>
+		</div>
+		<div id="set_right_div" style="">
+			<div>角色名称:<h1>XXX</h1>
+			</div>
+			<table>
+			<tr><td>系统管理:</td>
+				<td>角色管理<input type="checkbox" value="" onclick=""></td>
+				<td>角色管理<input type="checkbox" value="" onclick=""></td>
+			</tr>
+			<tr><td>车务信息:</td>
+				<td>车辆信息<input type="checkbox" value="" onclick=""></td>
+				<td>司机信息<input type="checkbox" value="" onclick=""></td>
+			</tr>
+			<tr><td>物流订单:</td>
+				<td>新增订单<input type="checkbox" value="" onclick=""></td>
+				<td>未付款<input type="checkbox" value="" onclick=""></td>
+			</tr>	
+			</table>
+			<button id="set_right_ok">确定</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="../common/js/sys-role.js">
+	</script>
+  </body>
+</html>
